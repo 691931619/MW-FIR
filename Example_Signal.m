@@ -3,7 +3,7 @@ clc;clear;
 % wavelet (filter) parameters
 P_MW_FIR_WL=0.08; % P-class window length
 M_MW_FIR_WL=0.28; % M-class window length
-fs=800*sqrt(2);           % sampling frequency
+fs=800;           % sampling frequency
 P_fc=42.5;        % P-class center frequency
 P_fci1=112;       % enhanced P-class center frequency for interfering signal
 M_fc=49.5;        % M-class center frequency 
